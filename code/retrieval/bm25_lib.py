@@ -8,6 +8,7 @@ rank_bm25 uses a slightly different IDF formula than Lucene, so scores
 differ from bm25_scratch.py. The ranking is what matters.
 """
 import re
+
 from rank_bm25 import BM25Okapi
 
 
