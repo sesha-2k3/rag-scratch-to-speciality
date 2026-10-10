@@ -1,0 +1,26 @@
+[project]
+name = "rag-scratch-to-speciality"
+version = "0.1.0"
+description = "RAG notes, worked examples, and quizzes: from scratch implementations to library versions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # *_scratch.py files need only the standard library
+
+[dependency-groups]
+# Needed only for the *_lib.py examples
+lib = [
+    "sentence-transformers",
+    "numpy",
+    "langchain-text-splitters",
+    "langchain-core",
+    "langchain-community",
+    "langchain-huggingface",
+    "langchain",
+    "tiktoken",
+    "rank-bm25",
+    "ranx",
+    "statsmodels",
+]
+
+[tool.uv]
+package = false  # this is a collection of scripts, not an installable package
