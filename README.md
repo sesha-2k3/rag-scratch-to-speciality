@@ -1,23 +1,22 @@
 # RAG fundamentals
 
-My notes, worked examples, and self-test quizzes from learning Retrieval-Augmented Generation: chunking, embeddings, the query flow, evaluation, BM25, and advanced retrieval patterns.
+My notes and worked examples from learning Retrieval-Augmented Generation: chunking, embeddings, the query flow, evaluation, BM25, and advanced retrieval patterns.
 
 ## Layout
 
 ```
 notes/      Concepts, numbered as a learning path
 code/       Runnable examples; each reproduces a worked example from the notes
-quizzes/    Question sets with collapsible answers
 ```
 
 | # | Notes | Code | Quiz |
 |---|---|---|---|
-| 01 | [Chunking](notes/01-chunking.md) | `code/chunking/fixed_recursive_*` | [Quiz 01](quizzes/01-chunking-embedding.md) |
-| 02 | [Embeddings, tokens, metadata](notes/02-embeddings-metadata.md) | `code/chunking/token_aware_*` | Quiz 01 |
-| 03 | [Query-time flow](notes/03-query-flow.md) | `code/retrieval/query_pipeline_*` | Quiz 01 |
-| 04 | [Evaluation](notes/04-evaluation.md) | `code/evaluation/*` | [Quiz 02](quizzes/02-evaluation.md) |
-| 05 | [BM25](notes/05-bm25.md) | `code/retrieval/bm25_*` | [Quiz 03](quizzes/03-advanced-retrieval.md) |
-| 06 | [Advanced retrieval](notes/06-advanced-retrieval.md) | `code/retrieval/rrf_*` | Quiz 03 |
+| 01 | [Chunking](notes/01-chunking.md) | `code/chunking/fixed_recursive_*` |
+| 02 | [Embeddings, tokens, metadata](notes/02-embeddings-metadata.md) | `code/chunking/token_aware_*` |
+| 03 | [Query-time flow](notes/03-query-flow.md) | `code/retrieval/query_pipeline_*` |
+| 04 | [Evaluation](notes/04-evaluation.md) | `code/evaluation/*` |
+| 05 | [BM25](notes/05-bm25.md) | `code/retrieval/bm25_*` |
+| 06 | [Advanced retrieval](notes/06-advanced-retrieval.md) | `code/retrieval/rrf_*` |
 
 ## Code conventions
 
