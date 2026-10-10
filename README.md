@@ -1,4 +1,4 @@
-# RAG fundamentals
+# RAG: scratch to speciality
 
 My notes and worked examples from learning Retrieval-Augmented Generation: chunking, embeddings, the query flow, evaluation, BM25, and advanced retrieval patterns.
 
