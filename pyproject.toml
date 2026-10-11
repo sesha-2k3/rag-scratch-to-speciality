@@ -4,7 +4,18 @@ version = "0.1.0"
 description = "RAG notes, worked examples, and quizzes: from scratch implementations to library versions"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []  # *_scratch.py files need only the standard library
+dependencies = [
+    "langchain>=1.4.4",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.9",
+    "langchain-huggingface>=1.2.3",
+    "langchain-text-splitters>=1.1.3",
+    "rank-bm25>=0.2.2",
+    "ranx>=0.3.21",
+    "sentence-transformers>=6.1.0",
+    "statsmodels>=0.15.0",
+    "tiktoken>=0.14.0",
+]  # *_scratch.py files need only the standard library
 
 [dependency-groups]
 # Needed only for the *_lib.py examples
